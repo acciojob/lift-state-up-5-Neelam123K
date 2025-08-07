@@ -23,7 +23,7 @@ const LoginForm = ({onLogin}) => {
           value={password}
           onChange={(e) => setPassword(e.target.value)} required
         />
-        <button type="submit">Login</button>
+        <button  onClick={onLogin}>Login</button>
       </forn>
     </div>
   );
