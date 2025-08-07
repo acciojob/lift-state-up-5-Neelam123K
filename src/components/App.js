@@ -12,7 +12,7 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-      <h1>Parent component</h1>
+      <h1>Parent Component</h1>
       {isLoggedIn ? (
         <p>you are logged in !</p>
       ): (
